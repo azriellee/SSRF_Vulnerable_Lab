@@ -31,7 +31,7 @@ if(isset($_POST['load']))
 	echo '
    <table width="50%" cellspacing="0" cellpadding="0" class="tb1" style="opacity: 0.6;">
    <tr><td align=center style="padding: 10px;" >
-	<form method=post action="'.$_SERVER['SCRIPT_NAME'].'">Specify the file name: <input type=text name=file value=local.txt><br><br><input type=submit name=read value="load file"></form>
+	<form method=post action="'.$_SERVER['SCRIPT_NAME'].'">Access flag on localhost/flag.txt <input type=text name=file value=local.txt><br><br><input type=submit name=read value="load file"></form>
 
    </td></tr></table>
    <table width="50%" cellspacing="0" cellpadding="0" class="tb1" style="margin:10px 2px 10px;opacity: 0.6;" >';

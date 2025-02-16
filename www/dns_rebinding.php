@@ -113,7 +113,7 @@ if(strstr($file, 'localhost') == false && preg_match('/(^https*:\/\/[^:\/]+)/', 
 		echo '
 		<table width="30%" cellspacing="0" cellpadding="0" class="tb1" style="opacity: 0.6;">
 						   <tr><td align=center style="padding: 10px;" >
-							Dear Nigga, Trying to access Localhost o_0 ? 
+							Trying to access Localhost o_0 ? 
 
 						   </td></tr></table>
 						   <table width="50%" cellspacing="0" cellpadding="0" class="tb1" style="margin:10px 2px 10px;opacity: 0.6;" >';
