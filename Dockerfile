@@ -8,6 +8,8 @@ RUN  chown www-data:www-data /var/www/html/
 
 ADD www /var/www/html/
 
+# Create a flag file inside the container for dns-spoofing exercise
+RUN echo "flag{CAPTURE_THIS_flag}" > /var/www/html/flag.txt
 
 EXPOSE 80
 CMD ["apache2ctl", "-D", "FOREGROUND"]
